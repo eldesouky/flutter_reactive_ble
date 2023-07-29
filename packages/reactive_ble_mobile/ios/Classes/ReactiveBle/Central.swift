@@ -97,9 +97,9 @@ final class Central {
                 )
             }
         )
-        self.centralManager = CBCentralManager(
+        centralManager = CBCentralManager(
             delegate: centralManagerDelegate,
-            queue: nil
+			queue: DispatchQueue.global(qos: .background)
         )
     }
 
