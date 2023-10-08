@@ -1,4 +1,4 @@
-import protocol SwiftProtobuf.Message
+import protocol SwiftProtobuf2.Message
 
 enum PluginError: Error {
 

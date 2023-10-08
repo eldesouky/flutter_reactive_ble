@@ -1,5 +1,5 @@
 import Flutter
-import enum SwiftProtobuf.BinaryEncodingError
+import enum SwiftProtobuf2.BinaryEncodingError
 import CoreBluetooth
 
 public class SwiftReactiveBlePlugin: NSObject, FlutterPlugin {

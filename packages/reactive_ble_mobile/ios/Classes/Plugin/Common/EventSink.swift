@@ -1,4 +1,4 @@
-import enum SwiftProtobuf.BinaryEncodingError
+import enum SwiftProtobuf2.BinaryEncodingError
 
 struct EventSink {
 

@@ -1,4 +1,4 @@
-import SwiftProtobuf
+import SwiftProtobuf2
 
 typealias PlatformMethodCompletionHandler = (PlatformMethodResult) -> Void
 
